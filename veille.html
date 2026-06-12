@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veille Technologique - Lyana RAMANANARIVO</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .doc-page {
+            background: white;
+            padding: 4rem;
+            max-width: 900px;
+            margin: 2rem auto;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .cover-page {
+            text-align: center;
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border-bottom: 2px solid var(--primary-color);
+            margin-bottom: 4rem;
+        }
+
+        .cover-title {
+            font-size: 3.5rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        .cover-subtitle {
+            font-size: 1.5rem;
+            color: #666;
+            margin-bottom: 3rem;
+        }
+
+        .doc-section {
+            margin-bottom: 3rem;
+        }
+
+        .doc-h2 {
+            color: var(--primary-color);
+            border-bottom: 1px solid #eee;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .sommaire-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .sommaire-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0.8rem;
+            border-bottom: 1px dotted #ccc;
+        }
+
+        .article-card {
+            background: #f9f9f9;
+            padding: 1.5rem;
+            border-left: 4px solid var(--primary-color);
+            margin-bottom: 1.5rem;
+            transition: transform 0.3s;
+        }
+
+        .article-card:hover {
+            transform: translateX(10px);
+        }
+
+        .article-desc {
+            font-size: 0.95rem;
+            color: #555;
+            margin-bottom: 1rem;
+            font-style: italic;
+        }
+
+        .source-link {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- BACKGROUND -->
+    <div class="background-bubbles">
+        <div class="bg-bubble"></div>
+        <div class="bg-bubble"></div>
+        <div class="bg-bubble"></div>
+        <div class="bg-bubble"></div>
+        <div class="bg-bubble"></div>
+        <div class="bg-bubble"></div>
+    </div>
+
+    <header class="header">
+        <div class="logo">Lyana<span>.</span></div>
+        <nav class="nav">
+            <a href="index.html#home" class="nav-link">Accueil</a>
+            <a href="index.html#cv" class="nav-link">CV</a>
+            <a href="index.html#tps" class="nav-link">TPs</a>
+            <a href="index.html#bts" class="nav-link">BTS SIO</a>
+            <a href="index.html#formations" class="nav-link">Formations</a>
+            <a href="index.html#certifications" class="nav-link">Certifs</a>
+            <a href="e5.html" class="nav-link">Épreuve E5</a>
+            <a href="e6.html" class="nav-link">Épreuve E6</a>
+            <a href="veille.html" class="nav-link active">Veille</a>
+        </nav>
+    </header>
+
+    <div class="main" style="padding-top: 6rem;">
+
+        <div class="doc-page">
+            <!-- PAGE DE GARDE -->
+            <div class="cover-page">
+                <div class="hero-badge" style="margin: 0 auto 1rem;">BTS SIO SISR 2026</div>
+                <h1 class="cover-title">Dossier de Veille Technologique</h1>
+                <p class="cover-subtitle">Thème : L'évolution du Wi-Fi 7 et son impact sur les réseaux d'entreprise</p>
+                <div style="margin-top: 2rem;">
+                    <p><strong>Présenté par :</strong> Lyana RAMANANARIVO</p>
+                    <p><strong>Option :</strong> Solutions d'Infrastructures, Systèmes et Réseaux</p>
+                </div>
+                <div class="card-icon" style="font-size: 5rem; margin-top: 2rem;">🌐</div>
+            </div>
+
+
+
+
+
+
+
+            <!-- GRANDES LIGNES WIFI 7 -->
+            <div class="doc-section">
+                <h2 class="doc-h2">Les grandes lignes du Wi-Fi 7</h2>
+                <ul style="list-style: none; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 0.8rem; margin-top: 1rem;">
+                    <li style="background:#f9f9f9; border-left: 4px solid var(--primary-color); padding: 0.8rem 1rem;">📡 <strong>Norme :</strong> IEEE 802.11be (Wi-Fi 7)</li>
+                    <li style="background:#f9f9f9; border-left: 4px solid var(--primary-color); padding: 0.8rem 1rem;">⚡ <strong>Débit max :</strong> jusqu'à 46 Gbit/s</li>
+                    <li style="background:#f9f9f9; border-left: 4px solid var(--primary-color); padding: 0.8rem 1rem;">🔗 <strong>Multi-Link Operation (MLO) :</strong> connexion simultanée sur plusieurs bandes</li>
+                    <li style="background:#f9f9f9; border-left: 4px solid var(--primary-color); padding: 0.8rem 1rem;">📶 <strong>Bandes :</strong> 2,4 GHz / 5 GHz / 6 GHz</li>
+                    <li style="background:#f9f9f9; border-left: 4px solid var(--primary-color); padding: 0.8rem 1rem;">🔒 <strong>Sécurité :</strong> WPA3 obligatoire sur la bande 6 GHz</li>
+                    <li style="background:#f9f9f9; border-left: 4px solid var(--primary-color); padding: 0.8rem 1rem;">📊 <strong>Modulation :</strong> 4096-QAM (x1,2 par rapport au Wi-Fi 6E)</li>
+                    <li style="background:#f9f9f9; border-left: 4px solid var(--primary-color); padding: 0.8rem 1rem;">📐 <strong>Canaux :</strong> jusqu'à 320 MHz (double du Wi-Fi 6E)</li>
+                    <li style="background:#f9f9f9; border-left: 4px solid var(--primary-color); padding: 0.8rem 1rem;">⏱️ <strong>Latence :</strong> ultra-faible, comparable au câble Ethernet</li>
+                    <li style="background:#f9f9f9; border-left: 4px solid var(--primary-color); padding: 0.8rem 1rem;">🏢 <strong>Usage pro :</strong> visio, cloud, IoT, réalité augmentée en entreprise</li>
+                    <li style="background:#f9f9f9; border-left: 4px solid var(--primary-color); padding: 0.8rem 1rem;">🔌 <strong>Alimentation :</strong> nécessite des switchs PoE++ pour les bornes Wi-Fi 7</li>
+                </ul>
+            </div>
+
+            <!-- FLUX RSS DYNAMIQUE (Section 4) -->
+
+            <div id="live-alerts" class="doc-section" style="border-top: 1px solid #eee; padding-top: 2rem;">
+                <h2 class="doc-h2">Flux d'actualités en direct</h2>
+                <p>
+                    Cette section affiche les dernières actualités captées en temps réel sur le sujet du Wi-Fi 7. C'est
+                    un outil précieux pour ma veille quotidienne.
+                </p>
+                <div id="rss-feed-container" style="margin-top: 1.5rem;">
+                    <p style="text-align: center; color: #666;">⌛ Chargement des dernières alertes...</p>
+                </div>
+            </div>
+
+
+
+            <div class="doc-section">
+                <h2 class="doc-h2">Conclusion et perspective</h2>
+                <p>
+                    En conclusion, cette veille sur le Wi-Fi 7 m'a permis de comprendre que le réseau sans-fil n'est
+                    plus "l'option de secours" du câble, mais bien le coeur des infrastructures modernes. C'est une
+                    techno passionnante qui va m'accompagner tout au long de ma carrière.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>Lyana RAMANANARIVO · Portfolio 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
